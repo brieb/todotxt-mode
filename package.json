@@ -3,7 +3,7 @@
 	"displayName": "todotxt-mode",
 	"description": "Commands and decorators for managing todo.txt files",
 	"version": "1.4.13",
-	"publisher": "davraamides",
+	"publisher": "brieb",
 	"engines": {
 		"vscode": "^1.33.0"
 	},
@@ -286,12 +286,12 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/davraamides/todotxt-mode.git"
+		"url": "https://github.com/brieb/todotxt-mode.git"
 	},
 	"bugs": {
-		"url": "https://github.com/davraamides/todotxt-mode/issues"
+		"url": "https://github.com/brieb/todotxt-mode/issues"
 	},
-	"homepage": "https://github.com/davraamides/todotxt-mode/blob/master/README.md",
+	"homepage": "https://github.com/brieb/todotxt-mode/blob/master/README.md",
 	"scripts": {
 		"vscode:prepublish": "npm run compile",
 		"compile": "tsc -p ./",
@@ -309,10 +309,5 @@
 	"dependencies": {
 		"lodash": "^4.17.15",
 		"vsce": "^1.59.0"
-	},
-	"__metadata": {
-		"id": "2ea052a8-4bd1-4e66-b470-d3ebc211ea81",
-		"publisherDisplayName": "davraamides",
-		"publisherId": "0fbc931a-f52a-424d-abca-0ea34ef4b92d"
 	}
 }
