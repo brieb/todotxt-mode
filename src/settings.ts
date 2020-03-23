@@ -16,6 +16,7 @@ export namespace Settings {
     export const TodoFilename:string = getSetting<string>("todoFilename");
     export const DoneFilename: string = getSetting<string>("doneFilename");
     export const SomedayFilename: string = getSetting<string>("somedayFilename");
+    export const NevermindFilename: string = getSetting<string>("nevermindFilename");
     export const WaitingFilename: string = getSetting<string>("waitingFilename");
     
     export const Message:string = getSetting<string>("message");

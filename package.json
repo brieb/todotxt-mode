@@ -77,6 +77,10 @@
 				"title": "todotxt-mode: Move tasks to Project Markdown file"
 			},
 			{
+				"command": "extension.moveTasksToNevermind",
+				"title": "todotxt-mode: Move tasks to Nevermind file"
+			},
+			{
 				"command": "extension.createTaskNote",
 				"title": "todotxt-mode: Create note for task"
 			},
@@ -131,6 +135,11 @@
 					"type": "string",
 					"default": "someday.txt",
 					"description": "Name of file for someday/maybe tasks"
+				},
+				"todotxtmode.nevermindFilename": {
+					"type": "string",
+					"default": "nevermind.txt",
+					"description": "Name of file for nevermind tasks"
 				},
 				"todotxtmode.waitingFilename": {
 					"type": "string",
@@ -300,5 +309,10 @@
 	"dependencies": {
 		"lodash": "^4.17.15",
 		"vsce": "^1.59.0"
+	},
+	"__metadata": {
+		"id": "2ea052a8-4bd1-4e66-b470-d3ebc211ea81",
+		"publisherDisplayName": "davraamides",
+		"publisherId": "0fbc931a-f52a-424d-abca-0ea34ef4b92d"
 	}
 }

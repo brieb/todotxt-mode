@@ -50,6 +50,9 @@ export function ActivateCommands(context: vscode.ExtensionContext) {
     let moveTasksToSomeday = vscode.commands.registerCommand('extension.moveTasksToSomeday', () => {
         Files.moveTasks(Settings.SomedayFilename);
     });
+    let moveTasksToNevermind = vscode.commands.registerCommand('extension.moveTasksToNevermind', () => {
+        Files.moveTasks(Settings.NevermindFilename);
+    });
     let moveTasksToProject = vscode.commands.registerCommand('extension.moveTasksToProject', () => {
         Files.moveTasksToProject();
     });
@@ -92,6 +95,7 @@ export function ActivateCommands(context: vscode.ExtensionContext) {
     context.subscriptions.push(moveTasksToTodo);
     context.subscriptions.push(moveTasksToWaiting);
     context.subscriptions.push(moveTasksToSomeday);
+    context.subscriptions.push(moveTasksToNevermind);
     context.subscriptions.push(moveTasksToProject);
     context.subscriptions.push(incrementPriority);
     context.subscriptions.push(decrementPriority);
